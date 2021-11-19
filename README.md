@@ -1,4 +1,4 @@
-Link to Ractjs FrontEnd https://github.com/Forchapeatl/Frontend-Tour--Rect-and-Django
+Link to Reactjs FrontEnd https://github.com/Forchapeatl/Frontend-Tour--Rect-and-Django
 
 # Fullstack Django and React
 
