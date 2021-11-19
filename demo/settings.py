@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'rest_framework',
     'django_filters',
-     'corsheaders',                              # add this
+    'corsheaders',                              # add this
     'rest_framework', 
     'api',
 ]
