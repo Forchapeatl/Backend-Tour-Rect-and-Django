@@ -133,6 +133,24 @@ MEDIA_URL = '/uploads/'
 
 FRONTEND_ROOT = os.path.abspath(os.path.join(BASE_DIR, '..', 'frontend', 'build'))
 
+CORS_ALLOW_METHODS = (
+        'GET',
+        'POST',
+        'PUT',
+        'PATCH',
+        'DELETE',
+        'OPTIONS'
+)
+
+CORS_ALLOW_HEADERS = (
+        'x-requested-with',
+        'content-type',
+        'accept',
+        'origin',
+        'authorization',
+        'x-csrftoken'
+)
+
 # Authentication using OAuth 2.0
 AUTHENTICATION_BACKENDS = (
     'oauth2_provider.backends.OAuth2Backend',
