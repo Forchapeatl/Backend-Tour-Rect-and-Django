@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'gsrcduhu9_l+9)*qdr01^%b8ue4@idq91nqd3xwh0lmz7p*bg+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://lamina.herokuapp.com/']
 
