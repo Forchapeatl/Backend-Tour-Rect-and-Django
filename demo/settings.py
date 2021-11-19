@@ -41,10 +41,13 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'rest_framework',
     'django_filters',
+     'corsheaders',                              # add this
+    'rest_framework', 
     'api',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',    # add this
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
