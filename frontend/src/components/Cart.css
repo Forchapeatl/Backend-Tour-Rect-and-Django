@@ -1,0 +1,11 @@
+.Cart {
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.Cart svg {
+  color: #007d8c;
+  height: 1.3rem;
+  width: 1.3rem;
+  vertical-align: -0.3rem;
+}

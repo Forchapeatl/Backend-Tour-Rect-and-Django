@@ -1,0 +1,33 @@
+.Filters {
+  background-color: #fff6e6;
+  margin: 0;
+  padding: 1rem;
+}
+
+.Filters label,
+.Filters input {
+  font-size: 14pt;
+  color: #111;
+}
+
+.Filters label {
+  text-align: right;
+  padding: 0 0 0 2rem;
+}
+
+.Filters input {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.Filters button {
+  border: 0px;
+  background-color: #007d8c;
+  color: #fff;
+  padding: 1rem;
+  font-size: 12pt;
+  font-weight: bold;
+  border-radius: 5px;
+}

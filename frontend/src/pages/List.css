@@ -1,0 +1,35 @@
+.List p {
+    font-size: 1em;
+    line-height: 2;
+    margin: 0 0 1em;
+}
+
+.List-header {
+    font: normal 1.2em DejaVuSans, Helvetica, Arial, sans-serif;
+    padding-bottom: .1em;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #141414;
+    color: #3c6b92;
+    margin-top: 1.6em;
+}
+
+.List-intro h3 {
+    font: normal 2em DejaVuSans, Arial, sans-serif;
+    color: #3c6b92;
+    margin: 1.2em 0 .2em;
+}
+
+.List-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.List-items .Item {
+    flex: 30% 0 1;
+    padding: 1rem;
+}
+
+.List .Pagination {
+    text-align: right;
+}

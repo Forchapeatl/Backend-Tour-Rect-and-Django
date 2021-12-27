@@ -1,0 +1,28 @@
+.Details {
+    display: flex;
+    padding: 1em;
+}
+
+.Details-content {
+    flex: 1 70%;
+}
+
+.Details-reserve {
+    flex: 1 30%;
+}
+
+.Details-label {
+    font-weight: bold;
+}
+
+.Details-buy {
+    border: 0;
+    border-radius: 5px;
+    background-color: #007d8c;
+    color: white;
+    margin: 1em 0 0 1em;
+    padding: 0.5em 1em;
+    box-shadow: 0px 0px 3px #555;
+    text-decoration: none;
+    font-size: 1.3rem;
+}

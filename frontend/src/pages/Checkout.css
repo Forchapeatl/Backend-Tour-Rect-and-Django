@@ -1,0 +1,44 @@
+.Checkout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.Checkout-header,
+.Checkout-summary {
+    flex: 100%;
+}
+
+.Checkout-form {
+    flex: 100%;
+    display: flex;
+}
+
+.Checkout-actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.Checkout-package-remove {
+    border-width: 0;
+    background-color: transparent;
+    color: #333;
+    font-size: 16pt;
+}
+
+.Checkout-actions__next button {
+    border: 1px solid #aaa;
+    background-color: #79cccd;
+    color: #111;
+    padding: 2rem;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.Checkout-actions__next button:hover {
+    border-color: #333;
+    background-color: #555;
+    color: #eee;
+}

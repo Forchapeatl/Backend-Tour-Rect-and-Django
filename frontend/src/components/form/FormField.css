@@ -1,0 +1,25 @@
+.Validated .Error,
+.FormField .Error {
+  color: red;
+  font-size: 10pt;
+}
+
+.FormField {
+  padding: 2rem 0 0 0;
+}
+
+.FormField label {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.FormField input {
+  padding: 0.3rem;
+  margin: 0.5rem 0rem;
+  border: 1px solid #aaa;
+  font-size: 14pt;
+}
+
+.FormField.invalid input {
+  border: 1px solid #f16664;
+}

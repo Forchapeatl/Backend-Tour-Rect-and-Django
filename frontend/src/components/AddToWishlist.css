@@ -1,0 +1,10 @@
+.AddToWishlist {
+  background-color: transparent;
+  border: 0;
+}
+
+.AddToWishlist svg {
+  width: 24px;
+  height: 24px;
+  color: #f16664;
+}

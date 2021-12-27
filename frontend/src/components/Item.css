@@ -1,0 +1,44 @@
+.Item img {
+    float: right;
+}
+
+.Item h3 {
+    font-size: 18pt;
+}
+
+.Item h3 a,
+.Item h3 a:visited,
+.Item h3 a:active {
+    text-decoration: none;
+    font-weight: normal;
+    color: #111;
+}
+
+.Item-more {
+    display: block;
+    border-radius: 5px;
+    float: right;
+    background-color: #f16664;
+    color: white;
+    margin: 1em 0 0 1em;
+    padding: 0.5em 1em;
+    box-shadow: 0px 0px 3px #777;
+    text-decoration: none;
+}
+
+.Item-price {
+    font-weight: bold;
+}
+
+.Item-rating svg {
+    color: #aaa;
+}
+
+.Item-rating__easy svg:nth-child(1),
+.Item-rating__medium svg:nth-child(1),
+.Item-rating__medium svg:nth-child(2),
+.Item-rating__hard svg:nth-child(1),
+.Item-rating__hard svg:nth-child(2),
+.Item-rating__hard svg:nth-child(3) {
+    color: #007d8c;
+}

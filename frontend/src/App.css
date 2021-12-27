@@ -1,0 +1,54 @@
+/*
+theme
+coral #f16664
+offwhite #fff6e6
+teal #79cccd
+darkteal #6bb7b9
+darkerteal #007d8c
+*/
+
+.App {
+  padding-top: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.App-nav {
+  flex: 1 100%;
+  display: flex;
+}
+
+.App-nav button,
+.App-nav a {
+  background-color: #fff;
+  color: #111;
+  border: 0px;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.App-nav button:hover,
+.App-nav a:hover {
+  border-bottom: 1px solid #f16664;
+}
+
+.App-nav__main {
+  flex: 70%;
+}
+
+.App-nav__links {
+  flex: 30%;
+}
+
+.App-sidebar {
+  flex: 1 10%;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.App-content {
+  flex: 1 80%;
+  padding: 0 1rem;
+}
